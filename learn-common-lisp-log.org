@@ -1,0 +1,129 @@
+                          Learn common-lisp Log
+
+* Overview
+
+This log is an emacs .org file format. Search for org-mode to find out
+more if you are unfamiliar with emacs or org-mode.
+
+* Background
+
+I have been looking for an object-oriented language for a few years.
+
+I've looked at Java, Python, Ruby, C#, Smalltalk/Eiffel, and Haskell.
+
+** Java
+
+I tried Java after Sun came to campus and demonstrated it about 1996.
+I bought a book and went through all the exercises. When I finished, I
+realized the libraries weren't mature enough for the text processing I
+wanted to do. That led me to Perl and emacs lisp.
+
+A decade later I looked at Java again and was impressed with the
+write-once, deploy-many approach. I still didn't like the syntax,
+which seemed unnecessarily wordy.
+
+** Python
+
+I wrote a few utilities in Python, but couldn't get over the issue
+that the deletion of some white space could change the logic of the
+program. A few years later I got over the problem, but still found the
+language uncomfortable. I also believe there is more than one way to
+solve a problem - that puts me in contradiction to the Python
+philosophy.
+
+** Perl
+
+I did a lot of Perl programming, but now mainly use it for one-liners.
+I think the syntax makes Perl a powerful write-once, read-never
+language. I have hopes for Perl 6, which led me to look at Haskell.
+
+** Haskell
+
+I liked the idea of functional programming that Haskell provides. The
+intellectual power of functional instead of procedural programming
+seemed promising. I was also impressed that  Perl 6 was implimented in
+Haskell in just a few months.
+
+I tried a few tutorials, but never got a handle on the language.
+
+** Ruby
+
+I had been reading about Ruby since it started appearing in Linux
+Journal articles. I was impressed with rails, as I had long wanted a
+framework when I was editing html by hand in the mid ninties.
+
+I read a couple of books on the philosophy of Ruby and started a few
+tutorials. I really liked the design of least-surprise built into the
+language. Given that Ruby was intended to be fun, I thought I had a
+match to my needs.
+
+After spending a several hours on tutorials, I never got a handle on
+the language. Not even a slippery grasp.
+
+** Emacs Lisp
+
+I had not really heard about common-lisp until this year (2009), even
+though I have been using emacs lisp for over a decade. I though lisp
+was lisp, so I didn't even think about looking beyond emacs lisp.
+
+I am very happy with emacs lisp, and use it daily for all sorts of
+text processing functions. I even wrote an Esperanto translation aid
+to help me learn Esperanto. It would even pull definitions of words I
+didn't know from an Esperanto web site.
+
+In spite of being happy with emacs lisp, it is not a general purpose
+programming language.
+
+** un-named language
+
+I was just about to give up on finding the language I wanted, so I
+decided to see what extentions to emacs were available to make it more
+of a general purpose langage. I found a commmon-lisp extention that
+led me to realize that there were other forms of lisp.
+
+I also had decided what I was looking for in a new programming
+language:
+
+- fun
+- clean syntax
+- object oriented if needed
+- dynamic typing
+- compiled and interpreted
+- close integration with emacs
+- cross platform (*nix/win) deployable
+- functional & procedural style
+- closure (nice, but not absolutely necessary)
+- hopefully leveraging my experience with emacs lisp and perl
+
+
+** Comparision of Languages I've Looked At
+
+| Language            | Perl5 | Python | Ruby | Java | Haskell | CL  |
+|---------------------+-------+--------+------+------+---------+-----|
+| fun                 | ?     | yes?   | yes? | no   | No      | Yes |
+| clean syntax        | No    | yes    | yes  | no   | ?       | Yes |
+| objects             | Yes   | yes    | yes  | yes  | Yes     | Yes |
+| dynamic typing      | Yes   | yes    | yes  | no   | ?       | Yes |
+| compiled            | No    | No?    | No?  | Yes  | Yes     | Yes |
+| interpreted         | Yes   | Yes    | Yes  | No   | ?       | Yes |
+| has emacs mode      | Yes   | Yes    | Yes  | Yes  | Yes     | Yes |
+| cross platform      | Yes   | Yes    | Yes  | Yes  | Yes?    | Yes |
+| functional style    | No    | No     | No   | No   | Yes     | Yes |
+| procedural style    | Yes   | Yes    | Yes  | Yes  | No      | Yes |
+| closure             | No    | No?    | No?  | No   | ?       | Yes |
+| leverage experience | Yes   | ?      | ?    | No   | No      | Yes |
+
+
+I also looked at Ada, C#, Prolog, Lua, and even Unlambda. I didn't
+look at the lastest versions Fortran, Algol, or PL/I even though I
+programmed Fortran and Algol for ten years on Burroughs and CDC
+mainframes.
+
+** common-lisp
+
+Somehow I found articles on common-lisp that convinced me that
+common-lisp had all the characteristics I wanted in the un-named
+language.
+
+I'm just getting started, playing around with the REPL and Slime mode
+in emacs and having lots of fun.
